@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('giphy.gif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 20px;
+  }
+
+.container {
+    max-width: 400px;
+    margin: 300px auto;
+    background: linear-gradient(to bottom, #cacaca, #ffffff);
+    border: 2px solid #0e0e0e;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+  }
+  
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 1px;
+  }
+  
+label {
+    display: inline-flex;
+    margin-bottom: 5px;
+    color: #141414;
+  }
+
+button {
+  text-align: center;
+  display: inline-flex;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  color: #000000;
+  background-color: #81ea74;
+}  
+
+button:hover {
+  background-color: #c8ffc1;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #0e0e0e;
+    border-radius: 4px;
+  }
+
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+  }

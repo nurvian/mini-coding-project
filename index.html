@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Calculator</h1>
+
+        <p>This calculator can convert Celsius to Farenheit and otherwise</p>
+        <p>Note : After click on calculate button, please clear fisrt for the next input!</p>
+  
+        <label for="celsius"><b>Celsius (°C):</b></label>
+        <input type="number" id="celsius" step="any">
+        
+        <label for="fahrenheit"><b>Fahrenheit (°F):</b></label>
+        <input type="number" id="fahrenheit" step="any">
+        
+        <button onclick="calculate()">Calculate</button>
+        <button onclick="clearInput()">Clear</button>
+        
+        <div class="result">
+            <p>Conclusion</p>
+            <span id="result"></span>
+    </div>
+    
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
